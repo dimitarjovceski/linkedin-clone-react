@@ -1,0 +1,51 @@
+.widgets{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    margin: 5px;
+    margin-left: 15px;
+   
+}
+
+.widgets__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.widgets__header > h3 {
+    color: black;
+    font-size: 15px;
+}
+
+.widgets__section{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.widgets > button {
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    background-color: #0077B5;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: none;
+    
+}
+
+.widgets__section > p{
+    font-size: 12px;
+}
